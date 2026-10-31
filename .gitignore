@@ -1,0 +1,16 @@
+# 本地截图与验证用临时目录，不进仓库
+.preview/
+*.log
+
+# 操作系统与编辑器杂项
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+.vscode/
+.idea/
+*.swp
+
+# 依赖（本项目零依赖，此项只为将来加构建脚本时不误提交）
+node_modules/
